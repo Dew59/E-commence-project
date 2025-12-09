@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E Commernce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav id="hambugermenus"><!--mobile menu toogle container-->
+        <span><img src="icon/icon-close.svg" alt="Cancel" id="cancel"></span>
+        <ol id="hambugermenu"><!--mobile menu toogle list-->
+            <li class="nav">Collections</li>
+            <li class="nav">Men</li>
+            <li class="nav">Women</li>
+            <li class="nav">About</li>
+            <li class="nav">Contacts</li>
+        </ol><!--mobile menu toogle list end-->
+    </nav> <!--mobile menu toogle container end-->
+
+    <header id="head"> <!--mobile header-->
+        <div id="menus"><span><img src="icon/icon-menu.svg" alt="menu hamburger" id="menu" height="15px"></span>
+            <span><img src="icon/logo.svg" alt="logo name" id="logo" height="15px"></span>
+        </div><!--hamburger && brand-name container-->
+        <div id="avatarcart"><div id="cartts"><img src="icon/icon-cart.svg" alt="cart" class="cart" height="20px"><div id="cartnum">3</div></div>
+            <span><img src="image/image-avatar.png" alt="user avatar" id="avatar" width="25px" height="25px"></span>
+        </div><!--cart && avatar contianer-->
+    </header><!--mobile header end-->
+    
+    <header id="header2"> <!--desktop header-->
+        <nav id="menuspan">
+            <div><img src="icon/logo.svg" alt="logo name" id="logo" width="130px" height="20px"></div>
+            <span class="nav">Collections</span>
+            <span class="nav">Men</span>
+            <span class="nav">Women</span>
+            <span class="nav">About</span>
+            <span class="nav">Contacts</span>
+        </nav>
+        <div id="avatarcart"><div id="cartt"><img src="icon/icon-cart.svg" alt="cart" width="25px" height="25px" class="cart"><div id="cartnum2">3</div></div> <span><img src="image/image-avatar.png"
+                alt="user avatar" id="avatar" width="25px" height="25px"></span></div>
+    </header><!--desktop header end-->
+
+    <section id="container"> <!--main container-->
+        <section id="picture"> <!--image main container-->
+            <div id="picturewrap1"> <!--image frame-->
+                <div id="picturewrap"> <!--image carousel container-->
+                    <span><img src="image/image-product-1.jpg" alt="first product image" class="first image"></span>
+                    <span><img src="image/image-product-2.jpg" alt="second product image" class="second image"></span>
+                    <span><img src="image/image-product-3.jpg" alt="third product image" class="third image"></span>
+                    <span><img src="image/image-product-4.jpg" alt="fourth product image" class="fourth image"></span>
+                </div> <!--image carousel container end-->
+            </div> <!--image frame end-->
+            <span id="control1"> <!--carousel control 1-->
+                <img src="icon/icon-previous.svg" alt="" height="10px">
+            </span>
+            <span id="control2"> <!--carousel control 2-->
+                <img src="icon/icon-next.svg" alt="" height="10px">
+            </span>
+
+            <div id="pictures"> <!--desktopview thumbnails container-->
+                <img src="image/image-product-1-thumbnail.jpg" alt="Product Image Thumbnail" width="60" height="60"
+                    class="thumbnail one">
+                <img src="image/image-product-2-thumbnail.jpg" alt="Product Image Thumbnail" width="60" height="60"
+                    class="thumbnail two">
+                <img src="image/image-product-3-thumbnail.jpg" alt="Product Image Thumbnail" width="60" height="60"
+                    class="thumbnail three">
+                <img src="image/image-product-4-thumbnail.jpg" alt="Product Image Thumbnail" width="60" height="60"
+                    class="thumbnail four">
+            </div><!--desktopview thumbnails end-->
+        </section> <!--image main container end-->
+        
+        <section id="writeups"> <!--writeups container-->
+            <h6>SNEAKER COMPANY</h6>
+            <h2>Fall Limited Edition Sneakers</h2>
+            <p id="writeup">These low-profile sneakers are your perfect casual wear companion. Featuring a durable
+                rubber outer sole,
+                they'll withstand everything the weather can offer.</p>
+            <div id="amount">
+                <p><span><b>$125.00</b></span> <span id="percent">50%</span></p>
+                <span><del>$250.00</del></span>
+            </div>
+            <section id="foot">
+                <div id="additionsection">
+                    <span><img src="icon/icon-minus.svg" alt="minus sign" id="minus"></span>
+                    <span id="numberspan"></span>
+                    <span><img src="icon/icon-plus.svg" alt="addition sign" id="plus"></span>
+                </div>
+                <button id="submit"> <span><img src="icon/icon-cart.svg" alt="cart" height="15px"></span>
+                    <span>Add to cart</span></button>
+            </section>
+        </section><!--writeups container end-->
+    </section> <!--main container end-->
+    <section id="cartbox"> <!--cart box container-->
+            <h3>Cart</h3>
+            <p id="status">Your Cart Is Empty.</p>
+            <div id="cartdisplaydiv">
+                <span><img src="image/image-product-1-thumbnail.jpg" alt="Product Image" width="50px" height="50px"
+                        id="productimage"></span>
+                <div>
+                    <p id="rite">Fall Limited Edition Sneakers</p>
+                    <span id="rites">$125.00 x 3 </span><b id="ritess">$375.00</b>
+                </div>
+                <span><img src="icon/icon-delete.svg" alt="delete" id="delete"></span>
+            </div>
+            <button id="checkout">Checkout</button>
+    </section> <!--cart box container end-->
+
+    <section id="previewcontainer"> <!--desktop image preview container-->
+        <div id="close"><img src="icon/icon-close.svg" alt=""></div> 
+        <div id="frame"> <!--desktop image preview frame-->
+            <div id="slide"> <!--desktop image preview carousel-->
+                <img src="image/image-product-1.jpg" alt="" class="imagess">
+                <img src="image/image-product-2.jpg" alt="" class="imagess">
+                <img src="image/image-product-3.jpg" alt="" class="imagess">
+                <img src="image/image-product-4.jpg" alt="" class="imagess">
+            </div> <!--desktop image preview carousel end-->
+        </div> <!--desktop image preview frame end-->
+        <div id="thumbnailss"> <!--desktop image(thumbnail) preview container-->
+            <img src="image/image-product-1-thumbnail.jpg" alt="" width="80" height="80" class="thumbnail five">
+            <img src="image/image-product-2-thumbnail.jpg" alt="" width="80" height="80" class="thumbnail six">
+            <img src="image/image-product-3-thumbnail.jpg" alt="" width="80" height="80" class="thumbnail seven">
+            <img src="image/image-product-4-thumbnail.jpg" alt="" width="80" height="80" class="thumbnail eight">
+        </div> <!--desktop image(thumbnail) preview container end-->
+        <div id="nextprev"> <!--desktop image control container-->
+            <img src="icon/icon-previous.svg" alt="" id="prev">
+            <img src="icon/icon-next.svg" alt="" id="next">
+        </div> <!--desktop image control container end-->
+    </section> <!--desktop image preview container end-->
+    <script src="script.js"></script>
+</body>
+
+</html>
