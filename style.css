@@ -25,6 +25,7 @@ header {
     padding: 5px 10px;
     display: flex;
     justify-content: space-between;
+    margin: 10px 0px;
 }
 
 #menus {
@@ -64,17 +65,17 @@ header {
 }
 
 h6 {
-    margin: 5px 10px;
+    margin: 15px 10px;
     font-weight: 700;
     color: hsl(219, 9%, 45%);
 }
 
 h2 {
-    margin: 5px 15px;
+    margin: 10px 15px;
 }
 
 #writeup {
-    margin: 5px 15px;
+    margin: 10px 15px;
     font-weight: 400;
     font-size: 16px;
     color: hsl(219, 9%, 45%);
@@ -83,7 +84,7 @@ h2 {
 #amount {
     display: flex;
     justify-content: space-between;
-    margin: 5px 15px;
+    margin: 10px 15px;
 }
 
 #amount p span {
@@ -106,7 +107,7 @@ h2 {
 #additionsection {
     display: flex;
     justify-content: space-between;
-    margin: 5px 15px;
+    margin: 15px 15px;
     background-color: hsl(223, 64%, 98%);
     border-radius: 5px;
     padding: 5px;
@@ -126,7 +127,7 @@ h2 {
     border: none;
     border-radius: 5px;
     background-color: hsl(26, 100%, 55%);
-    margin: 5px 10px;
+    margin: 25px 10px;
     font-weight: 700;
     display: flex;
     justify-content: center;
@@ -185,7 +186,7 @@ h2 {
     background-color: white;
     position: absolute;
     left: 5px;
-    top: 120px;
+    top: 180px;
     width: 20px;
     text-align: center;
     border-radius: 50%;
@@ -197,7 +198,7 @@ h2 {
     background-color: white;
     position: absolute;
     right: 5px;
-    top: 120px;
+    top: 180px;
     width: 20px;
     text-align: center;
     border-radius: 50%;
@@ -315,7 +316,7 @@ h3 {
 
 .image {
     width: 100vw;
-    height: 200px;
+    height: 300px;
     object-fit: fill;
 }
 
