@@ -61,6 +61,7 @@ function clearcart() {
     checkoutbtn.style.visibility = `hidden`;
     cartnum.style.display = `none`;
     statux.style.display = `block`;
+    cartnum2.style.display = `none`
 };//checkout btn function
 
 
