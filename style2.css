@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+/* font link*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: kumbh sans;
+    border: 2px solid;
+}
+
+#header2 {
+    display: none;
+}
+
+/* desktop header*/
+
+header {
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    font-size: 20px;
+}
+
+#menus {
+    display: flex;
+    gap: 15px;
+}
+
+/*hamburger && brand-name container*/
+
+#avatarcart {
+    display: flex;
+    gap: 15px;
+}
+
+/*cart && avatar container*/
+
+#menu:hover {
+    cursor: pointer;
+}
+
+/*hamburger*/
+
+#cart {
+    cursor: pointer;
+}
+
+#avatar:hover {
+    cursor: pointer;
+    border: 1px solid hsl(26, 100%, 55%);
+    border-radius: 50%;
+}
+
+#container {
+    width: 100%;
+    font-family: kumbh sans;
+    font-size: 16px;
+    font-size: 25px;
+}
+
+h6 {
+    margin: 10px 15px;
+    font-weight: 700;
+    color: hsl(219, 9%, 45%);
+}
+
+h2 {
+    margin: 10px 15px;
+}
+
+#writeup {
+    margin: 10px 15px;
+    font-weight: 400;
+    font-size: 22px;
+    color: hsl(219, 9%, 45%);
+}
+
+#amount {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 15px;
+}
+
+#amount p span {
+    font-weight: 700;
+}
+
+#amount del {
+    font-weight: 400;
+    color: hsl(219, 9%, 45%);
+}
+
+#percent {
+    background-color: black;
+    color: white;
+    border-radius: 20%;
+    padding: 3px 5px;
+    font-size: smaller;
+}
+
+#additionsection {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    margin: 15px 15px;
+    background-color: hsl(223, 64%, 98%);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+#minus:hover {
+    cursor: pointer;
+}
+
+#plus:hover {
+    cursor: pointer;
+}
+
+#submit {
+    width: 93%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(26, 100%, 55%);
+    margin: 25px 10px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    box-shadow: 0px 1px 10px hsl(26, 100%, 55%);
+    font-size: 20px;
+
+}
+
+/*(add to cart)button*/
+
+#submit:hover {
+    cursor: pointer;
+    background-color: hsl(26, 78%, 57%);
+}
+
+#pictures {
+    display: none;
+}
+
+/*desktopview thumbnails*/
+
+#hambugermenus {
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    z-index: 10;
+}
+
+/*mobile menu toogle container*/
+
+#hambugermenus span {
+    padding: 10px 25px;
+}
+
+#hambugermenu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 25px;
+    list-style: none;
+    font-weight: 700;
+}
+
+/*mobile menu toogle list*/
+
+#hambugermenus {
+    display: none;
+}
+
+/*mobile menu toogle container*/
+
+#control1 {
+    background-color: white;
+    position: absolute;
+    left: 5px;
+    top: 180px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+/*carousel control 1*/
+
+#control2 {
+    background-color: white;
+    position: absolute;
+    right: 5px;
+    top: 180px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+/*carousel control 2*/
+
+#cartbox {
+    background-color: white;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    border-radius: 10px;
+    margin: 10px;
+    position: absolute;
+    top: 40px;
+    display: none;
+}
+
+h3 {
+    border-bottom: 1px solid;
+    padding: 10px 17px;
+}
+
+#status {
+    font-weight: 700;
+    text-align: center;
+    padding-top: 5px;
+}
+
+/*epmty cart declaration*/
+
+#cartdisplaydiv {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 17px;
+    visibility: hidden;
+}
+
+/*cartbox content div*/
+
+#productimage {
+    border-radius: 10px;
+}
+
+#checkout {
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    background-color: hsl(26, 100%, 55%);
+    margin: 7px 17px;
+    visibility: hidden;
+}
+
+/*checkout button*/
+
+#checkout:hover {
+    cursor: pointer;
+    background-color: hsl(26, 78%, 57%);
+}
+
+#rites {
+    font-size: 16px;
+    color: hsl(219, 9%, 45%);
+    padding: 0px 7px;
+}
+
+/*cartbox content*/
+
+#rite {
+    font-size: 16px;
+    color: hsl(219, 9%, 45%);
+    padding: 0px 7px;
+}
+
+/*cartbox content*/
+
+#cartts {
+    position: relative;
+    cursor: pointer;
+}
+
+/*cart-image && cart quantity number container for mobile header*/
+
+#cartnum {
+    background-color: hsl(26, 100%, 55%);
+    padding: 5px;
+    font-size: 10px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    display: none;
+}
+
+/*cart quantity number*/
+
+#picturewrap1 {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+/*image frame*/
+
+#picturewrap {
+    display: flex;
+    transition: all 1s ease;
+}
+
+/*image carousel container*/
+
+.image {
+    width: 100vw;
+    height: 300px;
+    object-fit: fill;
+}
+
+#previewcontainer {
+    display: none;
+}
+
+/*desktop image preview container*/
