@@ -174,10 +174,11 @@ h2 {
 #hambugermenu {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 50px;
     padding: 10px 25px;
     list-style: none;
     font-weight: 700;
+    font-size: 20px;
 }
 
 /*mobile menu toogle list*/
@@ -222,7 +223,7 @@ h2 {
     border-radius: 10px;
     margin: 10px;
     position: absolute;
-    top: 40px;
+    top: 85px;
     display: none;
 }
 
@@ -331,3 +332,5 @@ h3 {
 }
 
 /*desktop image preview container*/
+
+
