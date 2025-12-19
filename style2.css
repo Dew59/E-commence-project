@@ -230,12 +230,18 @@ h2 {
 h3 {
     border-bottom: 1px solid;
     padding: 10px 17px;
+    font-size: 28px;
 }
 
 #status {
     font-weight: 700;
-    text-align: center;
-    padding-top: 5px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    /* height: 50px; */
+    /* text-align: center; */
+    /* margin-top: 55px; */
+    /* border: 1px solid; */
 }
 
 /*epmty cart declaration*/
@@ -259,6 +265,7 @@ h3 {
     border: none;
     background-color: hsl(26, 100%, 55%);
     margin: 7px 17px;
+    font-size: 25px;
     visibility: hidden;
 }
 
@@ -270,7 +277,7 @@ h3 {
 }
 
 #rites {
-    font-size: 16px;
+    font-size: 22px;
     color: hsl(219, 9%, 45%);
     padding: 0px 7px;
 }
@@ -278,9 +285,12 @@ h3 {
 /*cartbox content*/
 
 #rite {
-    font-size: 16px;
+    font-size: 22px;
     color: hsl(219, 9%, 45%);
     padding: 0px 7px;
+}
+#ritess {
+    font-size: 25px;
 }
 
 /*cartbox content*/
@@ -357,19 +367,25 @@ h3 {
 
     #menuspan {
         display: flex;
+        align-items: center;
         width: 70%;
         gap: 30px;
-        padding: 5px;
         color: hsl(219, 9%, 45%);
         font-size: 20px;
+        /* border: 1px solid; */
+    }
+    .nav:hover {
+        border-bottom: 3px solid hsl(26, 100%, 55%);
+        cursor: pointer;
+        padding-bottom: 8px;
     }
     #cartt {
         position: relative;
     }
 
     #avatarcart {
-        /* display: flex; */
         gap: 45px;
+        cursor: pointer;
         /* border: 1px solid; */
     }
     #cartnum2 {
@@ -426,6 +442,10 @@ h3 {
     .thumbnail {
         border-radius: 10px;
     }
+    .thumbnail:hover {
+        cursor: pointer;
+        filter: opacity(0.8);
+    }
     #foot {
         display: flex;
         justify-content: space-between;
@@ -446,6 +466,22 @@ h3 {
         height: 15%;
         /* border: 1px solid; */
     }
+    #cartbox {
+        top: 45px;
+        right: 20px;
+        width: 30%;
+        background-color: white;
+        box-shadow: 5px 5px 5px gray;
+    }
+    h3 {
+        padding: 25px 13px;
+    }
+    #cartdisplaydiv {
+        padding: 10px 0px;
+    }
+    #checkout {
+        margin-bottom: 23px;
+    }
 
 
 
@@ -464,5 +500,113 @@ h3 {
     }
     del {
         font-size: 22px;
+    }
+
+    #previewcontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background-color: #000000d2;
+        display: none;
+    }
+
+    /*desktop image preview container*/
+
+    .arrow {
+        background-color: black;
+        border: 2px solid;
+        cursor: pointer;
+    }
+
+    #frame {
+        width: 450px;
+        height: 450px;
+        overflow: hidden;
+    }
+
+    #slide {
+        display: flex;
+        transition: all 1s ease;
+    }
+
+    .imagess {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        object-fit: contain;
+    }
+
+    #thumbnailss {
+        display: flex;
+        gap: 20px;
+    }
+    .thumbnail:hover {
+        cursor: pointer;
+        filter: opacity(0.5);
+    }
+    #nextprev {
+        width: 480px;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+    }
+
+    /*carousel control div for desktop preview*/
+
+    #prev {
+        padding: 5px;
+        border-radius: 30%;
+        background-color: aliceblue;
+        cursor: pointer;
+    }
+
+    #prev:hover {
+        background-color: hsl(26, 78%, 57%);
+    }
+
+    /*carousel control 1 for desktop preview*/
+
+    #next {
+        padding: 5px;
+        border-radius: 30%;
+        background-color: aliceblue;
+        cursor: pointer;
+    }
+
+    #next:hover {
+        background-color: hsl(26, 78%, 57%);
+    }
+
+    /*carousel control 2 for desktop preview*/
+
+    #section {
+        position: relative;
+    }
+    #close {
+        position: absolute;
+        justify-self: center;
+        top: -30px;
+        border-radius: 50%;
+        padding: 5px;
+    }
+
+    /*carousel close icon for desktop preview*/
+
+    #close:hover {
+        cursor: pointer;
+        background-color: hsl(26, 100%, 55%);
+    }
+
+
+
+    .active {
+        border: 4px solid hsl(26, 100%, 55%);
+        border-radius: 10px;
+        filter: opacity(0.3);
     }
 }
