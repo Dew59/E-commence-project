@@ -12,7 +12,6 @@ body {
     width: 100%;
     height: 100%;
     font-family: kumbh sans;
-    border: 2px solid;
 }
 
 #header2 {
@@ -109,6 +108,7 @@ h2 {
 #additionsection {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 40px;
     margin: 15px 15px;
     background-color: hsl(223, 64%, 98%);
@@ -334,3 +334,135 @@ h3 {
 /*desktop image preview container*/
 
 
+@media screen and (min-width: 765px) {
+    body {
+        width: 100%;
+        /* height: 100%; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* border: 3px solid; */
+    }
+
+    #head {
+        display: none;
+    }
+
+    #header2 {
+        display: flex;
+        font-size: 20px;
+        width: 95%;
+        border-bottom: 1px solid;
+    }
+
+    #menuspan {
+        display: flex;
+        width: 70%;
+        gap: 30px;
+        padding: 5px;
+        color: hsl(219, 9%, 45%);
+        font-size: 20px;
+    }
+    #cartt {
+        position: relative;
+    }
+
+    #avatarcart {
+        /* display: flex; */
+        gap: 45px;
+        /* border: 1px solid; */
+    }
+    #cartnum2 {
+        background-color: hsl(26, 100%, 55%);
+        padding: 5px;
+        font-size: 10px;
+        height: 20px;
+        border-radius: 50%;
+        position: absolute;
+        top: -5px;
+        right: -5px;
+        display: none;
+    }
+    #container {
+        display: flex;
+        justify-content: space-between;
+        /* align-self: center; */
+        width: 90%;
+        /* border: 2px solid; */
+    }
+    #picture {
+        width: 100%;
+        /* border: 1px solid; */
+    }
+    #writeups {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        width: 100%;
+        margin-top: 95px;
+        /* padding: 10px 105px; */
+        /* border: 1px solid; */
+    }
+    #control1, #control2 {
+        display: none;
+    }
+    #pictures {
+        display: flex;
+        justify-content: flex-start;
+        gap: 50px;
+        padding-left: 15px;
+        /* border: 1px solid; */
+    }
+    #picturewrap1 {
+        width: 550px;
+        height: 500px;
+        margin: 30px 5px;
+    }
+    .image {
+        height: 490px;
+        width: 550px;
+        border-radius: 10px;
+    }
+    .thumbnail {
+        border-radius: 10px;
+    }
+    #foot {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 1px solid; */
+    }
+    #additionsection {
+        width: 50%;
+        height: 70%;
+    }
+    #submit {
+        width: 100%;
+        height: 70%;
+    }
+    #amount {
+        display: flex;
+        flex-direction: column;
+        height: 15%;
+        /* border: 1px solid; */
+    }
+
+
+
+
+    h6 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 50px;
+    }
+    #writeup {
+        font-size: 20px;
+    }
+    #price {
+        font-size: 30px;
+    }
+    del {
+        font-size: 22px;
+    }
+}
